@@ -1,0 +1,370 @@
+/* .header {
+  color: "transparent";
+  position: "absolute";
+} */
+.img_Signup1 {
+  background: url("../../Images/Register1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 108%;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.img_Signup2 {
+  background: url("../../Images/Register2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 108%;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.img_Signup3 {
+  background: url("../../Images/Register3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 108%;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.textimg1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "DBHeavent";
+}
+.textimg2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "DBHeaventLi";
+}
+.textH {
+  font-weight: 500;
+  font-size: 45px;
+  font-family: "DBHeavent";
+  margin-bottom: 0px;
+}
+.textH2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "DBHeavent";
+  margin-bottom: 30px;
+  color: #474747;
+}
+.button {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "DBHeavent";
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.button2 {
+  background: transparent;
+  border: transparent;
+  position: relative;
+  left: 35px;
+}
+.button3 {
+  background: transparent;
+  border: 1px solid #eaecf0;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.button4 {
+  background: #1466b1;
+  border: 1px solid #eaecf0;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.crown {
+  background: url("../../Images/crown.png");
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+.briefcase {
+  background: url("../../Images/briefcase.png");
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+.crown2 {
+  background: url("../../Images/crown2.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.briefcase2 {
+  background: url("../../Images/briefcase2.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.button3 p {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "DBHeavent";
+  margin-left: 10px;
+}
+.button4 p {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "DBHeavent";
+  margin-left: 10px;
+  color: #ffffff;
+}
+.textPolicy {
+  color: #001e33;
+  font-family: "DBHeavent";
+  font-size: 20px;
+}
+.textLogin {
+  color: #8a8a8a;
+  font-family: "DBHeaventLi";
+  font-size: 20px;
+}
+.textLogin3 {
+  color: #8a8a8a;
+  font-family: "DBHeaventLi";
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  font-size: 20px;
+}
+.box1 {
+  display: flex;
+  position: relative;
+  left: 25%;
+}
+.cloud_upload {
+  background: url("../../Images/cloud_upload.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+}
+.BoxInputImg1 {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  height: 43vw;
+}
+.BoxInputImg2 {
+  width: 550px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  height: 43vw;
+}
+.BoxInputImg3 {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  height: 60vw;
+}
+.BoximgProfile {
+  width: 100%;
+  height: 210px;
+}
+.imgProflie {
+  width: 100%;
+  height: -webkit-fill-available;
+  object-fit: cover;
+}
+.BoxIdcard {
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 100%;
+  height: 230px;
+  padding: 60px;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(208, 213, 221);
+  border-width: 2px;
+  margin: 20px 20px 20px 0px;
+}
+.BoxSuccessFile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% auto 5%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #eaecf0);
+  margin-bottom: 15px;
+  align-items: center;
+}
+.BoxuploadBookbank {
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 35%;
+  padding: 5px;
+  position: relative;
+  border-style: solid;
+  border-color: rgb(208, 213, 221);
+  border-width: 2px;
+  margin: 20px 20px 20px 0px;
+}
+.setInbuttonBookbank {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.setInbuttonBookbank img {
+  width: 16px;
+  height: 16px;
+}
+.setInbuttonBookbank p {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "DBHeavent";
+  margin-left: 10px;
+}
+.Additional_explanation {
+  position: unset;
+  width: 100%;
+  height: 140px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(229, 229, 229);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0px;
+}
+.ModalBoxPayment {
+  position: absolute;
+  width: 50vw;
+  height: 26vw;
+  background-color: #fff;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  top: 10vh;
+  left: 25vw;
+}
+.ModalBoxPayment2 {
+  position: absolute;
+  width: 45vw;
+  height: 22vw;
+  background-color: #fff;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  top: 20vh;
+  left: 25vw;
+}
+.Logo {
+  width: 100px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+}
+.Logo2 {
+  width: 100px;
+  height: 72px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.borderReceipt {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+.H_text01 {
+  font-weight: 500;
+  font-size: 32px;
+  font-family: "DBHeavent";
+}
+.H_text02 {
+  font-size: 22px;
+  text-align: left;
+  font-family: "DBHeaventLi";
+  margin: 32px 0px;
+}
+.H_text03 {
+  font-weight: 500;
+  font-size: 32px;
+  font-family: "DBHeavent";
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.BoxbuttonModalBoxPayment {
+  display: flex;
+  justify-content: end;
+}
+.boxpayment {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.buttonModel1 {
+  width: 20%;
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  color: #e5e5e5;
+  border-radius: 32px;
+  margin-bottom: 20px;
+  border: none;
+  height: 40px;
+}
+.buttonModel2 {
+  width: 20%;
+  background: var(--gray-300, #d0d5dd);
+  color: #e5e5e5;
+  border-radius: 32px;
+  margin-bottom: 20px;
+  border: none;
+  height: 40px;
+}

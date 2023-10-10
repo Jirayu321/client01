@@ -1,0 +1,2317 @@
+.App_header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+  position: absolute;
+  width: 100vw;
+  font-family: "DBHeavent";
+}
+.fram1_button2 {
+  background: transparent;
+  border-radius: 26.5px;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  width: 13vw;
+  font-family: "DBHeavent";
+}
+.textCustomerH {
+  display: contents;
+}
+.textHeading2_overviwe {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+  font-family: "DBHeavent";
+}
+.Get_Quote {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  float: left;
+  width: 135px;
+  height: 40px;
+  padding: 2px;
+  border-radius: 30px;
+  text-align: center;
+  border-color: transparent;
+}
+.BsFileEarmarkFill {
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  font-family: "DBHeavent";
+}
+.textHeading2_overviwe2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 40px;
+  text-align: start;
+  color: #333333;
+  font-family: "DBHeavent";
+}
+.BoxFilter {
+  border: 1px solid rgb(229, 229, 229);
+  height: 135px;
+  padding-top: 10px;
+  border-radius: 10px;
+  width: 86vw;
+}
+.cardTranslator {
+  width: 23vw;
+  height: 390px;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding: 15px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  margin-top: 15px;
+  border: 1px solid rgb(229, 229, 229);
+}
+.iconcardTranslator {
+  background: linear-gradient(91.8deg, #ff725a 1.03%, #eca51f 99.01%);
+  width: 35px;
+  height: 33px;
+  border-radius: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.iconcardTranslator img {
+  width: 20px;
+  height: 20px;
+}
+.Deal {
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  font-family: "DBHeavent";
+}
+.profile {
+  width: 100%;
+  color: #e6e6e6;
+  font-size: 60px;
+  font-family: "DBHeavent";
+}
+.Logo {
+  width: 100px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+}
+.H_text01 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #242424;
+  font-family: "DBHeavent";
+}
+.H_text02 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #242424;
+  font-family: "DBHeaventLi";
+}
+.H_Model {
+  font-size: 14px;
+  color: var(--gray-500, #667085);
+}
+.H_Model2 {
+  font-size: 16px;
+  text-align: end;
+}
+.H_Model3 {
+  font-size: 20px;
+  text-align: end;
+  color: #f04438;
+}
+.Box_detailH_Model {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonModel1 {
+  width: 100%;
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  color: #e5e5e5;
+  border-radius: 32px;
+  margin-bottom: 20px;
+  border: none;
+  height: 40px;
+}
+.buttonModel1_2 {
+  width: 100%;
+  background: transparent;
+  color: #ffa0a0;
+  border-radius: 32px;
+  border: 1px solid #ffa0a0;
+  height: 40px;
+}
+.fromdetail {
+  position: absolute;
+  width: 52vw;
+  height: 725px;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  left: 42vw;
+  padding: 20px;
+  text-align: left;
+  display: grid;
+  align-content: start;
+  justify-content: space-around;
+  grid-template-columns: auto auto;
+}
+.buttonAddandDelete {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  font-family: "DBHeavent";
+}
+.TextbuttonAddandDelete2 {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "DBHeavent";
+}
+.Box_next {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 600px;
+  box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 35px;
+}
+.BoxNumber {
+  display: flex;
+}
+.buttonArrow {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 32px;
+  margin: 0px 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "DBHeavent";
+}
+.buttonArrow2 {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  border: none;
+  border-radius: 32px;
+  margin: 0px 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "DBHeavent";
+  color: #e5e5e5;
+}
+.buttonArrow .icon1 {
+  font-size: 16px;
+  display: inline;
+  color: #3b005f;
+}
+.boxpayment {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.cardpayment {
+  width: 150px;
+  height: 120px;
+  border: 1px solid #c4c4c4;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 0px;
+  /* background: transparent; */
+  color: #ffffff;
+  background: #d0d5dd;
+}
+.cardpayment2 {
+  width: 150px;
+  height: 120px;
+  border: 1px solid #c4c4c4;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 0px;
+  background: #d0d5dd;
+  color: #ffffff;
+}
+.cardpayment3 {
+  width: 150px;
+  height: 120px;
+  border: 1px solid #c4c4c4;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 20px 20px 0px;
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  color: #ffffff;
+}
+.cardpayment:hover {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  color: #ffffff;
+}
+.cardpayment img {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardpayment2 img {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardpayment3 img {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.App_payment {
+  margin-top: 10px;
+}
+.form_group input {
+  margin: 10px 0px;
+}
+.form_group2 input {
+  margin: 10px 0px;
+}
+.borderReceipt {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 10px;
+}
+.Box_detailH_Model2 {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.diviconcardTranslator {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.BoxAlert {
+  width: 50%;
+  position: absolute;
+  top: 80px;
+  left: 50vw;
+}
+.ModalBoxPayment {
+  position: absolute;
+  width: 50vw;
+  height: 75vh;
+  background-color: #fff;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  top: 10vh;
+  left: 25vw;
+}
+.BoxbuttonModalBoxPayment {
+  position: relative;
+  top: 120px;
+}
+.boxModalEmailToTrack {
+  position: absolute;
+  width: 50vw;
+  height: 55vh;
+  background-color: #fff;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  top: 10vh;
+  left: 25vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundfram1 {
+    background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0),
+          rgba(0, 0, 0, 0.2)
+        )
+        round,
+      url("../../Images/fram1Home.png");
+    height: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fram1_button2 {
+    font-size: 26px;
+    line-height: 43px;
+    display: flex;
+    margin: 20px;
+    width: 80vw;
+  }
+  .Boxfromdetail {
+    display: grid;
+    grid-template-columns: auto;
+    width: 90vw;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .Boxfile {
+    width: 50vw;
+    height: 60vw;
+    background: #ffffff;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .labelBoxfile {
+    display: grid;
+  }
+  .labelBoxfile p {
+    color: var(--gray-5, #e0e0e0);
+    font-family: "DBHeavent";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 130vw;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* left: 42vw; */
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    align-content: start;
+    justify-content: space-around;
+    grid-template-columns: auto;
+  }
+  .Autocomplete {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+  }
+  .Additional_explanation {
+    position: unset;
+    width: 100%;
+    height: 140px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .Box_next {
+    position: unset;
+    width: 100%;
+    height: 100px;
+    /* top: 600px; */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0px 35px;
+  }
+  .Boxinput {
+    justify-self: center;
+    width: 52vw;
+  }
+  .Box_next2 {
+    position: unset;
+    width: 90vw;
+    height: 170px;
+    /* top: 600px; */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .BoxNumber {
+    margin: 20px 0px;
+    justify-content: center;
+  }
+  .Get_Quote {
+    background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+    width: 50vw;
+    height: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    text-align: center;
+    border-color: transparent;
+  }
+  .BoxPromo {
+    /* width: 80vw; */
+    height: 100vw;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px;
+  }
+  .InBoxPromo {
+    display: grid;
+    justify-content: center;
+  }
+  .textHeading2_overviwe2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: start;
+    color: #333333;
+    font-family: "DBHeavent";
+    text-align: center;
+  }
+  .BoxFilter {
+    border: 0px solid rgb(229, 229, 229);
+    height: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 86vw;
+  }
+  .BoxControStar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .cardTranslator {
+    width: 50vw;
+    height: 60vw;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    /* border: 1px solid rgb(229, 229, 229); */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .HtextBoxFilter {
+    margin-top: 50px;
+  }
+  .HtextBoxFilter p {
+    margin: 20px 0px;
+  }
+  .BoxDeal {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 100%;
+  }
+  .Deal {
+    width: 40vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 50vw;
+    height: 90vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vh;
+    left: 25vw;
+  }
+  .DetailModalReceipt {
+    text-align: left;
+    overflow-y: auto;
+    height: 190px;
+  }
+  .boxpayment {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 50vw;
+    height: 105vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 7vh;
+    left: 25vw;
+  }
+  .App_payment {
+    margin-top: 20px;
+  }
+  .formboxModalcard {
+    margin-top: 20px;
+  }
+  .buttonboxModalcard {
+    position: relative;
+    top: 12vw;
+  }
+  .H_text02 {
+    font-size: 19px;
+  }
+  .boxModalThankyou {
+    position: absolute;
+    width: 50vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vh;
+    left: 25vw;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .Htext01 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .Htext02 {
+    font-size: 14px;
+    color: #ffffff;
+    width: 90vw;
+  }
+  .backgroundfram1 {
+    background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0),
+          rgba(0, 0, 0, 0.2)
+        )
+        round,
+      url("../../Images/fram1Home.png");
+    height: 180vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Boxfile {
+    width: 80vw;
+    height: 95vw;
+    background: #ffffff;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Htext03 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .Htext04 {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .Autocomplete {
+    width: 80vw;
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 280vw;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+  .Additional_explanation {
+    position: unset;
+    width: 80vw;
+    height: 140px;
+  }
+  .Box_next2 {
+    position: relative;
+    width: 90vw;
+    height: 170px;
+    left: 45px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .buttonfromdetail {
+    justify-self: center;
+    margin: 10px 0px;
+    position: relative;
+    left: 35px;
+  }
+  .Get_Quote {
+    width: 70vw;
+    height: 40px;
+  }
+  .textHeading2_overviwe2 {
+    font-size: 40px;
+    margin-bottom: -43px;
+  }
+  .BoxControStar {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .BoxPromo {
+    /* width: 80vw; */
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px;
+  }
+  .cardTranslator {
+    width: 90vw;
+    height: 145vw;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    /* border: 1px solid rgb(229, 229, 229); */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .diviconcardTranslator {
+    width: 75%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .diviconcardTranslator2 {
+    width: 50vw;
+  }
+  .Deal {
+    width: 70vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .BoxAlert {
+    width: 90%;
+    position: absolute;
+    top: 58px;
+    left: 5vw;
+  }
+  .Logo {
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 90vw;
+    height: 195vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .H_text01 {
+    font-size: 16px;
+  }
+  .H_Model {
+    font-size: 12px;
+  }
+  .H_Model2 {
+    font-size: 12px;
+  }
+  .H_Model3 {
+    font-size: 16px;
+  }
+  .DetailModalReceipt {
+    height: 165px;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 90vw;
+    height: 200vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .cardpayment {
+    width: 100px;
+    height: 100px;
+  }
+  .cardpayment2 {
+    width: 100px;
+    height: 100px;
+  }
+  .cardpayment3 {
+    width: 100px;
+    height: 100px;
+  }
+  .cardpayment p {
+    font-size: 13px;
+  }
+  .cardpayment2 {
+    font-size: 13px;
+  }
+  .cardpayment2 img {
+    width: 40px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .BoxbuttonModalBoxPayment {
+    position: relative;
+    top: 100px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 95vw;
+    height: 202vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 3vw;
+  }
+  .App_payment {
+    margin-top: 20px;
+    margin-left: -25px;
+  }
+  .formboxModalcard {
+    margin-top: 20px;
+    width: 108%;
+  }
+  .buttonboxModalcard {
+    position: relative;
+    top: 4vw;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 90vw;
+    height: 112vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 3vw;
+  }
+  .H_text02 {
+    font-size: 13px;
+  }
+  .H_text03 {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(36, 36, 36);
+    text-align: left;
+    font-family: DBHeavent;
+  }
+  .boxModalThankyou {
+    position: absolute;
+    width: 90vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vh;
+    left: 5vw;
+  }
+}
+@media only screen and (min-width: 350px) {
+  .ModalReceipt {
+    position: absolute;
+    width: 90vw;
+    height: 175vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 90vw;
+    height: 182vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .cardpayment {
+    width: 120px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .cardpayment2 {
+    width: 120px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .cardpayment3 {
+    width: 120px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 90vw;
+    height: 185vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 90vw;
+    height: 112vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+}
+@media only screen and (min-width: 384px) {
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 230vw;
+    display: grid;
+    align-content: start;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+  .cardTranslator {
+    width: 90vw;
+    height: 125vw;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 90vw;
+    height: 160vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 90vw;
+    height: 160vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+  .BoxbuttonModalBoxPayment {
+    position: relative;
+    top: 90px;
+  }
+  .App_payment {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .formboxModalcard {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 90vw;
+    height: 170vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 5vw;
+  }
+  .H_text02 {
+    font-size: 16px;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 90vw;
+    height: 95vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 210vw;
+  }
+  .cardTranslator {
+    width: 80vw;
+    height: 115vw;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 90vw;
+    height: 150vw;
+    top: 5vw;
+    left: 5vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 90vw;
+    height: 150vw;
+    top: 5vw;
+    left: 5vw;
+  }
+  .cardpayment {
+    width: 145px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .cardpayment2 {
+    width: 145px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .cardpayment3 {
+    width: 145px;
+    height: 100px;
+    margin: 20px 10px;
+  }
+  .cardpayment p {
+    font-size: 16px;
+  }
+  .cardpayment2 p {
+    font-size: 16px;
+  }
+  .Logo {
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+  }
+  .H_text01 {
+    font-size: 23px;
+  }
+  .H_text02 {
+    font-size: 18px;
+  }
+  .H_text03 {
+    font-size: 20px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 90vw;
+    height: 158vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 5vw;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 90vw;
+    height: 95vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .backgroundfram1 {
+    background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0),
+          rgba(0, 0, 0, 0.2)
+        )
+        round,
+      url("../../Images/fram1Home.png");
+    height: 130vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 185vw;
+  }
+  .Box_next2 {
+    position: relative;
+    width: 90vw;
+    height: 170px;
+    left: 65px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .buttonfromdetail {
+    justify-self: center;
+    margin: 10px 0px;
+    position: relative;
+    left: 70px;
+  }
+  .cardTranslator {
+    width: 80vw;
+    height: 100vw;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 90vw;
+    height: 130vw;
+    top: 5vw;
+    left: 5vw;
+  }
+  .boxpayment {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 90vw;
+    height: 130vw;
+    top: 5vw;
+    left: 5vw;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 90vw;
+    height: 135vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 5vw;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 90vw;
+    height: 80vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 5vw;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .Htext02 {
+    font-size: 16px;
+    color: #ffffff;
+    width: 90vw;
+  }
+  .Boxfile {
+    width: 60vw;
+    height: 70vw;
+    background: #ffffff;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fromdetail {
+    position: unset;
+    width: 30vw;
+    height: 150vw;
+  }
+  .Box_next2 {
+    position: relative;
+    width: 90vw;
+    height: 170px;
+    left: 90px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .buttonfromdetail {
+    justify-self: center;
+    margin: 10px 0px;
+    position: relative;
+    left: 90px;
+  }
+  .cardTranslator {
+    width: 75vw;
+    height: 75vw;
+    padding: 50px;
+    padding-top: 20px;
+  }
+  .Deal {
+    width: 55vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 70vw;
+    height: 103vw;
+    top: 5vw;
+    left: 15vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 70vw;
+    height: 103vw;
+    top: 5vw;
+    left: 15vw;
+  }
+  .BoxbuttonModalBoxPayment {
+    position: relative;
+    top: 65px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 70vw;
+    height: 108vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 15vw;
+  }
+  .formboxModalcard {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 70vw;
+    height: 60vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vw;
+    left: 15vw;
+  }
+  .boxModalThankyou {
+    position: absolute;
+    width: 70vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vw;
+    left: 15vw;
+  }
+  .H_text02 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .backgroundfram1 {
+    background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0),
+          rgba(0, 0, 0, 0.2)
+        )
+        round,
+      url("../../Images/fram1Home.png");
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 140vw;
+  }
+  .Additional_explanation {
+    position: unset;
+    width: 60vw;
+    height: 140px;
+  }
+  .cardTranslator {
+    width: 65vw;
+    height: 70vw;
+    padding: 35px;
+    padding-top: 20px;
+  }
+  .BoxAlert {
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    left: 5vw;
+  }
+  .Customer_Autocomplete__3Z5nb {
+    width: 60vw;
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 70vw;
+    height: 97vw;
+    top: 5vw;
+    left: 15vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 70vw;
+    height: 97vw;
+    top: 5vw;
+    left: 15vw;
+  }
+  .buttonModel1 {
+    margin-bottom: 10px;
+  }
+  .cardpayment {
+    width: 170px;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .cardpayment2 {
+    width: 170px;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .cardpayment3 {
+    width: 170px;
+    height: 110px;
+    margin: 20px 10px;
+  }
+  .App_payment {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 70vw;
+    height: 100vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 15vw;
+  }
+  .Deal {
+    width: 50vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .Autocomplete {
+    width: 60vw;
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+  }
+  .Box_next2 {
+    position: relative;
+    width: 90vw;
+    height: 170px;
+    left: 25px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .buttonfromdetail {
+    justify-self: center;
+    margin: 10px 0px;
+    position: relative;
+    left: 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .backgroundfram1 {
+    background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0),
+          rgba(0, 0, 0, 0.2)
+        )
+        round,
+      url("../../Images/fram1Home.png");
+    height: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .Boxbackgroundfram1 {
+    text-align: center;
+    justify-items: center;
+    display: inline-grid;
+    position: relative;
+    top: 125px;
+  }
+  .fram1_button2 {
+    font-size: 26px;
+    line-height: 43px;
+    display: flex;
+    margin: 20px;
+    width: 80vw;
+  }
+  .Boxfromdetail {
+    display: grid;
+    grid-template-columns: auto;
+    width: 90vw;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .fram2 {
+    display: grid;
+    justify-items: center;
+  }
+  .Boxfile {
+    width: 50vw;
+    height: 60vw;
+    background: #ffffff;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .labelBoxfile {
+    display: grid;
+  }
+  .labelBoxfile p {
+    color: var(--gray-5, #e0e0e0);
+    font-family: "DBHeavent";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 130vw;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    /* left: 42vw; */
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    align-content: start;
+    justify-content: space-around;
+    grid-template-columns: auto;
+  }
+  .Autocomplete {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+  }
+  .Additional_explanation {
+    position: unset;
+    width: 100%;
+    height: 140px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .Box_next {
+    position: unset;
+    width: 100%;
+    height: 100px;
+    /* top: 600px; */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0px 35px;
+  }
+  .Boxinput {
+    justify-self: center;
+    width: 52vw;
+  }
+  .Box_next2 {
+    position: unset;
+    width: 90vw;
+    height: 170px;
+    /* top: 600px; */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .BoxNumber {
+    margin: 20px 0px;
+    justify-content: center;
+  }
+  .Get_Quote {
+    background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+    width: 50vw;
+    height: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    text-align: center;
+    border-color: transparent;
+  }
+  .BoxPromo {
+    /* width: 80vw; */
+    height: 100vw;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px;
+  }
+  .InBoxPromo {
+    display: grid;
+    justify-content: center;
+  }
+  .textHeading2_overviwe2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: start;
+    color: #333333;
+    font-family: "DBHeavent";
+    text-align: center;
+  }
+  .BoxFilter {
+    border: 0px solid rgb(229, 229, 229);
+    height: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 86vw;
+  }
+  .BoxControStar {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .cardTranslator {
+    width: 50vw;
+    height: 60vw;
+    display: grid;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    /* border: 1px solid rgb(229, 229, 229); */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .diviconcardTranslator {
+    width: 90%;
+  }
+  .diviconcardTranslator2 {
+    width: 35vw;
+  }
+  .HtextBoxFilter {
+    margin-top: 50px;
+  }
+  .HtextBoxFilter p {
+    margin: 20px 0px;
+  }
+  .BoxDeal {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 100%;
+  }
+  .Deal {
+    width: 40vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -25px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 50vw;
+    height: 83vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 3vw;
+    left: 25vw;
+  }
+  .DetailModalReceipt {
+    text-align: left;
+    overflow-y: auto;
+    height: 190px;
+  }
+  .boxpayment {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 50vw;
+    height: 105vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 7vh;
+    left: 25vw;
+  }
+  .App_payment {
+    margin-top: 20px;
+  }
+  .formboxModalcard {
+    margin-top: 20px;
+  }
+  .buttonboxModalcard {
+    position: relative;
+    top: 12vw;
+  }
+  .H_text02 {
+    font-size: 19px;
+  }
+  .boxModalThankyou {
+    position: absolute;
+    width: 50vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 10vh;
+    left: 25vw;
+  }
+  .buttonfromdetail {
+    justify-self: center;
+    margin: 10px 0px;
+    position: relative;
+    left: 1px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 115vw;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    align-content: start;
+    justify-content: space-around;
+    grid-template-columns: auto;
+  }
+  .iconcardTranslator {
+    background: linear-gradient(91.8deg, #ff725a 1.03%, #eca51f 99.01%);
+    width: 55px;
+    height: 33px;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .diviconcardTranslator {
+    width: 80%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .cardTranslator {
+    width: 50vw;
+    height: 55vw;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .HtextBoxFilter {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 50vw;
+    height: 80vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 2vw;
+    left: 25vw;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 52vw;
+    height: 81vw;
+    top: 1vw;
+    left: 25vw;
+  }
+  .BoxbuttonModalBoxPayment {
+    position: relative;
+    top: 95px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 53vw;
+    height: 81vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 1vw;
+    left: 25vw;
+  }
+  .buttonboxModalcard {
+    position: relative;
+    top: 0vw;
+  }
+  .Logo {
+    width: 100px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+  }
+  .boxModalEmailToTrack {
+    position: absolute;
+    width: 55vw;
+    height: 47vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 25vw;
+  }
+  .H_text02 {
+    font-size: 19px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .backgroundfram1 {
+    height: 70vw;
+  }
+  .Boxbackgroundfram1 {
+    text-align: center;
+    justify-items: center;
+    display: inline-grid;
+    position: relative;
+    top: 200px;
+  }
+  .Boxfromdetail {
+    display: grid;
+    grid-template-columns: auto;
+    width: 75vw;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .fromdetail {
+    position: unset;
+    width: 52vw;
+    height: 90vw;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    align-content: start;
+    justify-content: space-around;
+    grid-template-columns: auto;
+  }
+  .Box_next2 {
+    position: unset;
+    width: 75vw;
+    height: 170px;
+    /* top: 600px; */
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 0px;
+    justify-content: center;
+    align-content: center;
+  }
+  .cardTranslator {
+    width: 35vw;
+    height: 40vw;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    margin-top: 15px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+  }
+  .diviconcardTranslator {
+    width: auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .diviconcardTranslator2 {
+    width: auto;
+  }
+  .iconcardTranslator {
+    width: 25px;
+    height: 25px;
+  }
+  .BoxDeal {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 24%;
+  }
+  .Deal {
+    width: 30vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .BoxAlert {
+    width: 35%;
+    position: absolute;
+    top: 114px;
+    left: 60vw;
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 50vw;
+    height: 65vw;
+    top: 2vw;
+    left: 25vw;
+  }
+
+  .iconcardTranslator img {
+    width: 15px;
+    height: 15px;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 52vw;
+    height: 66vw;
+    top: 1vw;
+    left: 25vw;
+    padding: 25px 50px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 53vw;
+    height: 66vw;
+    top: 1vw;
+    left: 25vw;
+  }
+  .boxModalEmailToTrack {
+    width: 50vw;
+    height: 40vw;
+    top: 5vw;
+    left: 25vw;
+    padding: 40px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .Boxbackgroundfram1 {
+    text-align: center;
+    justify-items: center;
+    display: inline-grid;
+    position: relative;
+    top: 250px;
+  }
+  .Htext02 {
+    font-size: 16px;
+    color: #ffffff;
+    width: 70vw;
+    margin-top: 45px;
+  }
+  .fram1_button2 {
+    font-size: 26px;
+    line-height: 43px;
+    display: flex;
+    margin: 20px;
+    width: 14vw;
+  }
+  .Boxfromdetail {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    justify-content: unset;
+    border: 0px solid #e5e5e5;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .fram2 {
+    display: grid;
+    justify-content: center;
+  }
+  .Boxfile {
+    margin-right: 40px;
+    width: 40vw;
+    height: 60vw;
+    background: #ffffff;
+    border: 0px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Boxinput {
+    justify-self: center;
+    width: 80%;
+  }
+  .Boxinput2 {
+    position: relative;
+    width: 180%;
+    left: 30px;
+  }
+  .fromdetail {
+    width: 50vw;
+    height: 60vw;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    display: grid;
+    align-content: start;
+    justify-content: space-around;
+    grid-template-columns: 50% 50%;
+  }
+  .Additional_explanation {
+    position: unset;
+    width: 125%;
+    height: 222px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 35px;
+  }
+  .Box_next2 {
+    position: relative;
+    width: 50vw;
+    height: 6vw;
+    padding: 0px 84px;
+    top: 80px;
+    left: -20px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-content: end;
+    grid-template-columns: auto auto;
+  }
+  .Get_Quote {
+    background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+    width: 10vw;
+    height: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    text-align: center;
+    border-color: transparent;
+    margin-top: 20px;
+  }
+  .groupbuttonfromdetail {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: -25vw;
+    top: 30vw;
+    width: 47vw;
+    height: 73px;
+    justify-content: space-between;
+  }
+  .buttonfromdetail {
+    justify-self: unset;
+    margin: 20px 0px;
+    position: relative;
+    left: 20px;
+    width: auto;
+  }
+  .cardTranslator {
+   width: 28vw;
+    height: 29vw;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+  .BoxDeal {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    /* top: 45px; */
+  }
+  .ModalReceipt {
+    position: absolute;
+    width: 30vw;
+    height: 47vw;
+    top: 5vw;
+    left: 35vw;
+  }
+  .BoxFilter {
+    border: 0px solid rgb(229, 229, 229);
+    height: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 86vw;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .HtextBoxFilter {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 45px;
+  }
+  .BoxPromo {
+    /* width: 80vw; */
+    height: auto;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 20px;
+  }
+  .BoxControStar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  .Htext03 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  .Htext04 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .textHeading2_overviwe2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-align: start;
+    color: #333333;
+    font-family: "DBHeavent";
+    text-align: start;
+  }
+  .ModalBoxPayment {
+    position: absolute;
+    width: 35vw;
+    height: 48vw;
+    top: 5vw;
+    left: 32vw;
+    padding: 25px 50px;
+  }
+  .boxModalcard {
+    position: absolute;
+    width: 45vw;
+    height: 50vw;
+    top: 5vw;
+    left: 27vw;
+  }
+  .buttonboxModalcard {
+    position: relative;
+    top: 3vw;
+  }
+  .boxModalEmailToTrack {
+    width: 45vw;
+    height: 30vw;
+    top: 6vw;
+    left: 30vw;
+    padding: 40px;
+  }
+  .H_text01 {
+    font-size: 25px;
+  }
+  .H_text02 {
+    font-size: 25px;
+  }
+  .iconcardTranslator {
+    width: 35px;
+    height: 35px;
+  }
+  .iconcardTranslator img {
+    width: 23px;
+    height: 23px;
+  }
+  .Deal {
+    width: 25vw;
+    height: 40px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .boxModalThankyou {
+    position: absolute;
+    width: 50vw;
+    background-color: #fff;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    top: 5vw;
+    left: 25vw;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .Box_next2 {
+    position: relative;
+    width: 50vw;
+    height: 6vw;
+    padding: 0px 84px;
+    top: 120px;
+    left: -20px;
+    box-shadow: 1px -6px 8px -2px rgba(16, 24, 40, 0.1);
+    display: grid;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-content: end;
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 1680px) {
+.groupbuttonfromdetail {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: -25vw;
+    top: 27vw;
+    width: 47vw;
+    height: 73px;
+    justify-content: space-between;
+}
+}
+@media only screen and (min-width: 1880px) {
+  .groupbuttonfromdetail {
+      display: grid;
+      grid-template-columns: auto auto;
+      position: relative;
+      left: -25vw;
+      top: 24vw;
+      width: 47vw;
+      height: 73px;
+      justify-content: space-between;
+  }
+  }
+
+/* @media only screen and (min-width: 1534px) {
+}  */

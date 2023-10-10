@@ -1,0 +1,536 @@
+.AppBobyTool {
+  background: linear-gradient(137deg, #3b005f 0%, #1466b1 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.BobyTool {
+  margin-top: -88px;
+  margin-left: 10px;
+  width: 91.4vw;
+}
+.TextHTool {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 500;
+  float: left;
+}
+.FormBtton {
+  float: none;
+  margin-bottom: 15px;
+  text-align: end;
+}
+.helper {
+  background: #f6fbfe;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-right: 40px;
+}
+.helper img {
+  float: left;
+  margin-left: 50px;
+  width: 25px;
+}
+.helper p {
+  margin-right: 50px;
+}
+.Submit {
+  background: #ffdb66;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-right: 40px;
+}
+.SunEditor {
+  text-align: left;
+  height: 350px;
+}
+.BoxSunEditor {
+  background: #ffffff;
+  padding: 50px;
+  padding-top: 15px;
+  height: 100vh;
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+}
+.InBoxSunEditor {
+  display: flex;
+  margin-bottom: 10px;
+}
+.InBoxSunEditor p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+.BsFileEarmarkText {
+  font-size: 50px;
+}
+.BoxModal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  width: 70vw;
+  height: 40vh;
+  box-shadow: 24px;
+  padding: 2.9vw;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  overflow: scroll;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+}
+.BoxModal2 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50vw;
+  height: 85vh;
+  box-shadow: 24px;
+  padding: 2.9vw;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  /* display: flex; */
+  background-color: #ffffff;
+  /* justify-content: center; */
+}
+BoxModal3 {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  width: 98vw;
+  height: 85vh;
+  box-shadow: 24px;
+  padding: 2.9vw;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  /* display: flex; */
+  background-color: #ffffff;
+  /* justify-content: center; */
+}
+.BoxModalButton {
+  box-sizing: border-box;
+  width: 230px;
+  height: 175px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px 80px;
+}
+.BoxModalButton p {
+  font-weight: 500;
+}
+.ImTextColor {
+  font-size: 40px;
+}
+.Autocomplete {
+  width: 150px;
+}
+.form {
+  display: flex;
+}
+
+.formIn2 {
+  position: relative;
+  top: 35px;
+  left: 48vw;
+}
+
+.rowbuttonTools {
+  display: flex;
+}
+.Toolsbutton {
+  border: 1px solid var(--BG3, #3b005f);
+  background: #fff;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.Toolsbutton p {
+  background: var(
+    --BG3,
+    linear-gradient(98deg, #3b005f 5.13%, #1466b1 100.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Toolsbutton2 {
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  background: var(
+    --BG3,
+    linear-gradient(98deg, #3b005f 5.13%, #1466b1 100.51%)
+  );
+  color: #fff;
+}
+.ToolHaed {
+  width: 100%;
+  height: 130px;
+  border-radius: 20px;
+  background: #f2f2ff;
+  display: grid;
+  padding: 15px;
+  grid-template-columns: auto auto;
+  margin-top: 20px;
+}
+.ToolHaed2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.ToolrowpoinBOX {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: start;
+  align-content: space-between;
+}
+.ToolBOX {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.ToolpoinBOX1 {
+  width: 14px;
+  height: 14px;
+  background: #d92d20;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.ToolpoinBOX2 {
+  width: 14px;
+  height: 14px;
+  background: #fec84b;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.ToolpoinBOX3 {
+  width: 14px;
+  height: 14px;
+  background: #32d583;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.ToolpoinBOX4 {
+  width: 14px;
+  height: 14px;
+  background: #eaecf0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.Toolrowbutton {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: start;
+  margin-top: 20px;
+}
+.ToolbuttonHaed1 {
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f2f2ff;
+  margin-left: 0px;
+  margin-right: 10px;
+  border: none;
+}
+.ToolbuttonHaed1 {
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f2f2ff;
+  margin-left: 0px;
+  margin-right: 10px;
+  border: none;
+}
+.ToolbuttonHaed2 {
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: transparent;
+  margin-left: 0px;
+  margin-right: 10px;
+  border: none;
+}
+.Tooltask {
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid var(--error-600, #d92d20);
+  background: var(--fffffff, #fff);
+  margin-top: 15px;
+  justify-content: space-between;
+  width: 100%;
+}
+.ToolText1 {
+  color: var(--primary-600, #7f56d9);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.ToolText2 {
+  color: var(--gray-800, #1d2939);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.ToolbuttonOpenFile {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+  border: none;
+  margin-top: 90%;
+  color: #fff;
+}
+.ToolHaed3 {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  background: #f2f2ff;
+  display: grid;
+  padding: 15px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.ToolHaed3_1 {
+  width: 100%;
+  height: 180px;
+  border-radius: 20px;
+  background: #f2f2ff;
+  display: grid;
+  padding: 15px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.ToolHaed4 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.ToolInHaed4 {
+  display: flex;
+}
+.ToolInHaed4text1 {
+  color: var(--bg-3, #828282);
+  font-family: "DBHeavent";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ToolInHaed4text2 {
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "DBHeavent";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ToolHelper {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--BG3, #3b005f);
+  background: #fff;
+}
+
+.ToolHelper2 {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--BG3, #3b005f);
+  background: var(
+    --BG3,
+    linear-gradient(98deg, #3b005f 5.13%, #1466b1 100.51%)
+  );
+}
+.ToolSubmit {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #00a79d;
+  background: #00a79d;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.Toolbobywork {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.ToolTest {
+  width: 342px;
+  height: 342px;
+}
+/* .sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  display: none;
+} */
+.TooltextHelper {
+  background: var(
+    --BG3,
+    linear-gradient(98deg, #3b005f 5.13%, #1466b1 100.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.TooltextHelper2 {
+  color: #fff;
+}
+/* .sun-editor .se-wrapper .se-wrapper-wysiwyg {
+  display: none;
+} */
+
+.ToolTest2 {
+  width: 450px;
+  height: 342px;
+  background-repeat: no-repeat;
+}
+.ToolSelectfile {
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  display: flex;
+  padding: 10px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0;
+  align-self: stretch;
+  margin-right: 40px;
+  width: 40vw;
+}
+.ToolbuttonNext {
+  border-radius: 8px;
+  background: var(
+    --BG3,
+    linear-gradient(98deg, #3b005f 5.13%, #1466b1 100.51%)
+  );
+  border: none;
+  color: #fff;
+  width: 80px;
+  height: 42px;
+}
+
+.ToolbuttonEdit {
+  border: none;
+  background: var(--BG2, linear-gradient(92deg, #ff725a 1.03%, #eca51f 99.01%));
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 50%;
+  color: #fff;
+}
+.ToolText {
+  width: 45vw;
+}
+.ToolSelectfile2 {
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  display: flex;
+  padding: 10px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0;
+  align-self: stretch;
+  margin-right: 40px;
+  width: 85vw;
+  height: 30vw;
+  overflow-y: scroll;
+}
+.ToolTest3 {
+  width: 70%;
+  height: auto;
+  background-repeat: no-repeat;
+  margin-top: 45%;
+}
+.ToolbuttonDownloadFile {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+  border: none;
+  margin-top: 70%;
+  color: #fff;
+}
+.ToolbuttonDownloadFile a {
+  color: #fff;
+  text-decoration: none;
+}
+.ToolSelectFileBox {
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vw;
+  width: 85vw;
+}

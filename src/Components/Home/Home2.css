@@ -1,0 +1,437 @@
+.HDashboard {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+.App-headerDashboard {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.mainDashboard_Home {
+  padding: 2.5rem;
+  margin: 100px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  background: #f2f2ff;
+  border-radius: 25px;
+  width: 92vw;
+  height: 60vw;
+}
+.HeaderDashboard {
+  width: 60.5vw;
+  padding: 10px;
+  height: 100px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  border-radius: 20px;
+  background: #f2f2ff;
+}
+.gbutton {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Settingbutton {
+  background: #ffdb66;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.group {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+  margin-top: 47px;
+  position: relative;
+}
+.BoxAllg1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+  align-content: baseline;
+}
+.box_num_1 {
+  position: relative;
+  width: 170px;
+  height: 120px;
+  background: #f2fdff;
+  border-radius: 6px;
+  text-align: start;
+  padding: 20px;
+  float: left;
+  margin: 13px 5px 5px 0px;
+}
+.box_num {
+  position: relative;
+  width: 170px;
+  height: 120px;
+  background: #f2fdff;
+  border-radius: 6px;
+  text-align: start;
+  padding: 20px;
+  float: left;
+  margin: 13px 5px 5px 13px;
+}
+
+.box_salary {
+  position: relative;
+  width: 375px;
+  height: 260px;
+  background: #fffaf2;
+  border-radius: 6px;
+  text-align: start;
+  padding: 20px;
+  float: left;
+  margin: 13px 6px 5px 13px;
+  border: none;
+}
+.percent {
+  font-size: 32px;
+  font-weight: 500;
+  background: var(--bg-2, linear-gradient(109deg, #ff725a 0%, #eca51f 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  position: relative;
+  margin-top: -80px;
+}
+.Schedule {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 500;
+}
+.Review {
+  position: relative;
+  width: 411px;
+  height: 90vh;
+  background: #f2fdff;
+  border-radius: 6px;
+  text-align: start;
+  padding: 20px;
+  float: left;
+  margin: 13px 6px 5px 13px;
+}
+.BoxDB {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: center;
+}
+#img_icons {
+  /* margin-top: 15px; */
+  width: 36px;
+  /* height: 45px; */
+}
+#img_icons2 {
+  width: 32px;
+}
+
+#int_count {
+  font-size: 40px;
+  color: #000000;
+  margin-left: 10px;
+}
+.ChartDB1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.HoverText {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 40px;
+  color: #000000;
+}
+.liststars {
+  display: grid;
+  align-items: baseline;
+  width: 100%;
+  grid-template-columns: 15% auto;
+}
+.boxliststars {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.rowCustomer {
+  width: 100px;
+}
+.roworderID {
+  width: 95px;
+}
+.rowType {
+  width: 215px;
+}
+.Home2Box1Schedule {
+  width: 262px;
+  padding: 16px 24px 16px 8px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 20px;
+  background: #cdedff;
+  margin: 10px 0px;
+}
+.Home2Box1ScheduleDetail {
+  display: grid;
+  grid-template-columns: auto;
+  border-left: 6px solid #06f;
+  padding: 10px;
+}
+.Home2Box1ScheduleDetail p {
+  color: #06f;
+  font-family: "DBHeavent";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.Home2Schedulebutton1 {
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: #06f;
+  font-family: "DBHeavent";
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+.Home2Schedulebutton2 {
+  border-radius: 8px;
+  border: 1px solid #ff1515;
+  background: #fff;
+  color: #ff1515;
+  font-family: "DBHeavent";
+  font-size: 18px;
+  margin-right: 5px;
+}
+.Home2Schedulebutton3 {
+  border-radius: 8px;
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+  color: #fff;
+  font-family: "DBHeavent";
+  font-size: 18px;
+  border: none;
+}
+
+.Home2Box2Schedule {
+  width: 262px;
+  padding: 16px 24px 16px 8px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 20px;
+  background: #fffacd;
+  margin: 10px 0px;
+}
+.Home2Box2ScheduleDetail {
+  display: grid;
+  grid-template-columns: auto;
+  border-left: 6px solid #ffb31f;
+  padding: 10px;
+}
+.Home2Box2ScheduleDetail p {
+  color: #ffb31f;
+  font-family: "DBHeavent";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.Home2Schedulebutton4 {
+  background: transparent;
+  border: none;
+  text-align: left;
+  color: #ffb31f;
+  font-family: "DBHeavent";
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  text-decoration: underline;
+}
+.Home2ScheduleDetailModal {
+  border-radius: 20px;
+  background: var(--blue-50, #eff8ff);
+  height: 290px;
+  /* width: 97%; */
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Home2ScheduleDetailModalHard {
+  color: #06f;
+  font-family: "DBHeavent";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+}
+.Home2ScheduleDetailModalInHard {
+  color: var(--black, #000);
+  font-family: "DBHeavent";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+}
+.Home2ScheduleDetailModalBox {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.Home2ScheduleDetailModalInBox p {
+  /* color: var(--black, #000); */
+  font-family: "DBHeaventLi";
+  font-size: 24px;
+  font-style: normal;
+  line-height: 40px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.Home2Schedulebuttonpage {
+  border-radius: 32px;
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+  width: 32px;
+  height: 32px;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #f2f2ff;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.Home2Schedulebuttonpage2 {
+  border-radius: 32px;
+  background: #f2f2ff;
+  height: 32px;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.Home2Schedulebuttongreu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.Home2SchedulebuttonCancel {
+  display: flex;
+  width: 100px;
+  padding: 8px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #ff1515;
+  background: #fff;
+  color: #ff1515;
+}
+.Home2SchedulebuttonAccept {
+  display: flex;
+  width: 100px;
+  padding: 8px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  background: var(--bg-3, linear-gradient(138deg, #3b005f 0%, #1466b1 100%));
+}
+.Home2ScheduleinputBox {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: left;
+  text-align: left;
+}
+.Home2ScheduleinputBoxP {
+  margin-top: 10px;
+  color: var(--gray-1, #333);
+  font-family: "DBHeavent";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Home2Scheduleinput {
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  display: flex;
+  padding: 11px 16px;
+  align-items: center;
+  gap: 160px;
+  align-self: stretch;
+  width: 750px;
+}
+.Home2buttonview {
+  display: flex;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 10px;
+  background: transparent;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.Home2buttonview p {
+  color: var(--black, #000);
+  font-family: "DBHeavent";
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 10px;
+}
+.Home2imgtest1 {
+  width: 400px;
+  display: flex;
+  justify-self: flex-end;
+}
+.Home2ScheduleDetailModal4 {
+  border-radius: 20px;
+  background: var(--blue-50, #eff8ff);
+  height: 550px;
+  margin-top: 20px;
+  padding: 20px;
+}
+

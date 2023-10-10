@@ -1,0 +1,124 @@
+.header {
+  color: "transparent";
+  position: "absolute";
+}
+.img_login {
+  background: url("../../Images/login.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 700px;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.img_ForgetPassword {
+  background: url("../../Images/ForgetPassword.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 730px;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+.img_CreateNewPassword {
+  background: url("../../Images/CreateNewPassword.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 730px;
+  position: relative;
+  right: 20px;
+  top: -55px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.textimg1 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "DBHeavent";
+}
+.textimg2 {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "DBHeaventLi";
+}
+
+.textLogin {
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "DBHeavent";
+}
+.textLogin2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "DBHeavent";
+  margin-bottom: 30px;
+  color: #474747;
+}
+.ForgetPassword {
+  float: right;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: "DBHeavent";
+  text-decoration-line: underline;
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.button {
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "DBHeavent";
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  border-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.textPolicy {
+  color: #001e33;
+  font-family: "DBHeaventLi";
+  font-size: 20px;
+}
+.textLi {
+  color: #8a8a8a;
+  font-family: "DBHeaventLi";
+  font-size: 20px;
+}
+.textLogin3 {
+  color: #8a8a8a;
+  font-family: "DBHeaventLi";
+  background: linear-gradient(98.35deg, #3b005f 5.13%, #1466b1 100.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+  font-size: 20px;
+}
+.button2 {
+  background: transparent;
+  border: transparent;
+  position: relative;
+  left: 35px;
+}
+.box {
+  display: flex;
+  position: relative;
+  left: 20%;
+}

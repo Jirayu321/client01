@@ -1,0 +1,207 @@
+.ContentFooter {
+  background-color: rgb(253, 239, 194);
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  border-top: 5px black solid;
+}
+.textFooter1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 3;
+  color: #034d82;
+}
+.textFooter2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 3;
+  color: #034d82;
+  width: 400px;
+}
+.boxImgFooter {
+  background-color: #ffff;
+  border-radius: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+.ImgApp_store {
+  margin: 10px;
+  margin-left: 16px;
+  width: 90px;
+}
+.ImgGoogle_play {
+  margin: 10px;
+  margin-left: 16px;
+  width: 100px;
+}
+.boxIconsFooter {
+  background-color: #ffc100;
+  border-radius: 30px;
+  border: 1px solid #ffff;
+  text-align: center;
+  float: left;
+  margin-left: 16px;
+  width: 40px;
+  height: 40px;
+}
+.IconsFooter {
+  width: 15px;
+  height: 15px;
+  color: #fff;
+}
+
+.ContentFooter2 {
+  background-color: #034d82;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.textFooter3 {
+  color: #fcc33e;
+  width: 100%;
+  margin-left: -10%;
+}
+.textFooter4 {
+  color: #fcc33e;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ContentFooter {
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo {
+    width: 160px;
+    /* float: left; */
+    display: grid;
+    justify-self: center;
+  }
+  .groupbutton {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .groupdownload {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .boxIconsFooter {
+    border-radius: 50px;
+    border: 1px solid var(--white, #fff);
+    background: var(--bg-2, linear-gradient(109deg, #ff725a 0%, #eca51f 100%));
+    text-align: center;
+    float: left;
+    margin-left: 16px;
+    width: 40px;
+    height: 40px;
+  }
+  .boxImgFooter {
+    border-radius: 7px;
+  }
+  .ImgApp_store {
+    width: 120px;
+  }
+  .ImgGoogle_play {
+    width: 120px;
+  }
+  .textFooter3 {
+    color: var(--white, #fff);
+  }
+  .textFooter4 {
+    color: var(--white, #fff);
+  }
+  .ContentFooter2 {
+    background: var(--indigo-900, #2d3282);
+  }
+}
+@media only screen and (min-width: 320px) {
+  .logo {
+    width: 40vw;
+  }
+  .BoxAutocomplete {
+    display: grid;
+    justify-self: center;
+  }
+  .textFooter1 {
+    font-size: 16px;
+  }
+  .textFooter2 {
+    font-size: 12px;
+    width: 80vw;
+    justify-self: center;
+  }
+  .ImgApp_store {
+    width: 30vw;
+  }
+  .ImgGoogle_play {
+    width: 30vw;
+  }
+  .ContentFooter2 {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 25vw;
+  }
+  .BoxAutocomplete {
+    display: grid;
+    justify-self: center;
+  }
+  .textFooter1 {
+    font-size: 16px;
+  }
+  .textFooter2 {
+    font-size: 12px;
+    width: 80vw;
+    justify-self: center;
+  }
+  .ImgApp_store {
+    width: 30vw;
+  }
+  .ImgGoogle_play {
+    width: 30vw;
+  }
+  .ContentFooter2 {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .textFooter2 {
+    font-size: 12px;
+    width: 25vw;
+    justify-self: center;
+  }
+  .ContentFooter2 {
+    font-size: 12px;
+  }
+  .ImgApp_store {
+    margin: 10px;
+    margin-left: 16px;
+    width: 90px;
+  }
+  .ImgGoogle_play {
+    margin: 10px;
+    margin-left: 16px;
+    width: 100px;
+  }
+  .logo {
+    width: 12vw;
+  }
+  .box4 {
+    float: left;
+    margin-left: 40px;
+  }
+}
